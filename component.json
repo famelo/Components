@@ -1,0 +1,10 @@
+{
+  "name": "famelo/components",
+  "version": "0.1.0",
+  "readme": "",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/famelo/Components.git"
+  }
+}
