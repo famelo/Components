@@ -3,6 +3,7 @@
 
 .nav-vertical {
 	.clearfix();
+	display: inline-block;
 
 	ul, li {
 		margin: 0;
@@ -25,6 +26,12 @@
 
 	ul ul a {
 		padding-left: @navVerticalIndent * 3;
+	}
+
+	ul.dropdown-menu,
+	.dropdown-hover > ul {
+		top: 0;
+		left: 100%;
 	}
 }
 
